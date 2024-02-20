@@ -1,0 +1,42 @@
+.about .table {
+  display: grid;
+  margin-top: 48px;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.about .cell {
+  padding: 96px 64px;
+}
+.about .lcell {
+  padding: 24px 64px;
+  border-bottom: 1px solid #000;
+}
+.about .cell-1 {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.about .cell-2 {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.about .cell-3 {
+  border-top: 1px solid #000;
+}
+.about > .table img {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.about > .table h3 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  color: #000;
+}
+.about > .table p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  color: #000;
+}/*# sourceMappingURL=about.css.map */
