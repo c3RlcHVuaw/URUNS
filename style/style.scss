@@ -1,0 +1,117 @@
+@import "mixins";
+@import "variables";
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+header {
+    padding: 0 48px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .button-header {
+        // width: auto;
+        width: 655px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            @include link(24px, 500, #000)
+            
+        }
+    }
+
+
+    .theme a {
+        @include link (20px, 300, #000)
+    }
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+
+
+    .text-shop {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // width: 377px;
+    }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 0;
+            font-weight: 400;
+            font-size: 32px;
+            letter-spacing: -0.05em;
+            color: #000;
+            }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 24px;
+            font-weight: 500;
+            font-size: 40px;
+            letter-spacing: -0.05em;
+            color: #000;
+        }
+
+        p {
+            margin-top: 8px;
+            margin-bottom: 0;
+            margin-left: 380px;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: -0.05em;
+            color: #f00;
+
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            @include button(110px)
+        }
+    }
+
+ 
+
+
+    .img-sneakers  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+
+//box-model
+
+.container {
+    // padding: 0 48px;
+    // display: flex;
+    // gap: 48px;
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: "Inter", sans-serif;
+    background-color: $bgc-l;
+}
