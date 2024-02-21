@@ -1,0 +1,84 @@
+@import "mixins";
+@import "variables";
+
+.contact {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+
+
+    .contact-content {
+        width: 100%;
+        margin-bottom: 156px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #000;
+    }
+
+    h1 {
+        max-width: 1050px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 68%;
+        letter-spacing: -0.07em;
+        text-align: center;
+        color: #2b2b2b;
+        margin-top: 128px;
+        margin-bottom: 32px;
+    }
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 64px;
+        font-weight: 300;
+        font-size: 32px;
+        letter-spacing: -0.05em;
+        color: #000;
+    }
+
+    p {
+        @include number(380px);
+        margin-bottom: 64px;
+    }
+
+    .form {
+        max-width: 610px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+
+
+        .input-text {
+            display: flex;
+            gap: 24px;
+        }
+    }
+
+    #name, #number {
+        padding: 24px;
+        border: 1px solid #000;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: rgba(77, 77, 77, 0.3);
+        
+        &:focus {
+            color: #000;
+        }
+    }
+} 
+
+#sumbit {
+    @include button (220px, 24px);
+    margin-bottom: 64px;
+}

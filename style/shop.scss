@@ -45,7 +45,7 @@
         }
 
         a {
-            @include button(110px)
+            @include button(110px, 12px 24px)
         }
 
         .img-sneakers  {

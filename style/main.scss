@@ -3,15 +3,18 @@
 @import "header.scss";
 @import "shop.css";
 @import "about.css";
+@import "contact.css";
+@import "footer.css";
 
 body {
     margin: 0 auto;
     max-width: 1920px;
+    background-color: $bgc-l;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1920px;
     font-family: "Inter", sans-serif;
-    background-color: $bgc-l;
+
 }

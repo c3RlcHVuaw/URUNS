@@ -20,11 +20,11 @@
     margin-left: $margin-left;
 }
 
-@mixin button ($width) {
+@mixin button ($width, $padding...) {
     @include link (24px, 500, #fff);
     width: $width;
     background: #000;
-    padding: 12px 24px;
+    padding: $padding;
     display: flex;
     justify-content: center;
     align-items: center;
