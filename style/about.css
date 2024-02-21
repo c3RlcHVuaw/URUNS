@@ -7,7 +7,8 @@
   padding: 96px 64px;
 }
 .about .lcell {
-  padding: 24px 64px;
+  margin: 0;
+  padding: 96px 64px;
   border-bottom: 1px solid #000;
 }
 .about .cell-1 {
@@ -21,7 +22,7 @@
 .about .cell-3 {
   border-top: 1px solid #000;
 }
-.about > .table img {
+.about > .table .ico {
   margin-top: 0;
   margin-bottom: 24px;
 }
@@ -39,4 +40,11 @@
   font-size: 20px;
   letter-spacing: -0.05em;
   color: #000;
+}
+.about > .table .number {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  color: #f00;
+  margin-left: 380px;
 }/*# sourceMappingURL=about.css.map */

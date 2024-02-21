@@ -14,7 +14,8 @@
     }
 
     .lcell {
-        padding: 24px 64px;
+        margin: 0;
+        padding: 96px 64px;
         border-bottom: 1px solid #000;
     }
 
@@ -34,7 +35,7 @@
 
     > .table {
 
-        img {
+        .ico {
             margin-top: 0;
             margin-bottom: 24px;
         }
@@ -54,6 +55,10 @@
             font-size: 20px;
             letter-spacing: -0.05em;
             color: #000;
+        }
+        
+        .number {
+            @include number;
         }
     }
 }
