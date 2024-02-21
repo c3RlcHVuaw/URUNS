@@ -10,12 +10,14 @@
     }
 }
 
-@mixin number {
+@mixin number($margin-left) {
     font-weight: 300;
     font-size: 20px;
     letter-spacing: -0.05em;
     color: #f00;
-    margin-left: 380px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $margin-left;
 }
 
 @mixin button ($width) {

@@ -27,13 +27,13 @@
   color: #000;
 }
 .shop p {
-  margin-top: 8px;
-  margin-bottom: 0;
-  margin-left: 380px;
   font-weight: 300;
   font-size: 20px;
   letter-spacing: -0.05em;
   color: #f00;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 380px;
 }
 .shop .button {
   display: flex;

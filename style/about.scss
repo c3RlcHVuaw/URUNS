@@ -58,7 +58,7 @@
         }
         
         .number {
-            @include number;
+            @include number(316px);
         }
     }
 }
